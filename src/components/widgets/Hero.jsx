@@ -5,11 +5,11 @@ import cvFile from '/public/CV_Muhammad Lazuardi Timur.pdf'
 
 const Hero = () => {
   return (
-    <div className="hero mb-3">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+    <div className="mb-3 hero">
+      <div className="flex-col hero-content lg:flex-row-reverse">
         <img src={photo} className="max-w-sm rounded-lg shadow-2xl" data-aos="fade-left" data-aos-duration="1000" />
         <div data-aos="fade-right" data-aos-duration="1000">
-          <h1 className="text-5xl font-bold font-montserrat">Hi, Welcome buddy!</h1>
+          <h1 className="text-5xl font-bold font-montserrat">Hi, Welcome buddy! </h1>
           <p className="py-6 font-montserrat">I'm Muhammad Lazuardi Timur, a Fullstack Developer from Indonesia. I'm currently internship at <a href="https://www.aio.co.id/" target="_blank" className="text-[#19A7CE] hover:text-[#146C94]">PT Amerta Indah Otsuka</a> as a Frontend Developer. I'm also a student at <a href="https://www.polinema.ac.id/" target="_blank" className="text-[#19A7CE] hover:text-[#146C94]">Politeknik Negeri Malang</a> majoring in Informatics Engineering.</p>
           <div className="flex items-center gap-3">
             <Link to={'/about'} class="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-slate-800 dark:text-slate-50 dark:hover:text-slate-800 border-2 border-slate-800 dark:border-slate-50 rounded-full hover:text-white group hover:bg-gray-50">

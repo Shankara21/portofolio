@@ -3,7 +3,31 @@
 @tailwind utilities;
 
 .active {
-  @apply underline-offset-4 underline;
+  @apply border-b-[2.5px] border-slate-800 dark:border-slate-50;
+}
+.text-link {
+  position: relative;
+  @apply text-slate-800 dark:text-slate-50;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.text-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  @apply bg-slate-800 dark:bg-slate-50;
+  transition: width 0.3s;
+}
+
+.text-link:hover {
+}
+
+.text-link:hover::after {
+  width: 100%;
 }
 @keyframes fadeDown {
   from {
