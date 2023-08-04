@@ -5,3 +5,17 @@
 .active {
   @apply underline-offset-4 underline;
 }
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-down-animation {
+  animation: fadeDown 1s ease-in-out;
+}

@@ -5,7 +5,7 @@ import cvFile from '/public/CV_Muhammad Lazuardi Timur.pdf'
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero mb-3">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img src={photo} className="max-w-sm rounded-lg shadow-2xl" data-aos="fade-left" data-aos-duration="1000" />
         <div data-aos="fade-right" data-aos-duration="1000">
@@ -19,10 +19,10 @@ const Hero = () => {
               </span>
               <span class="relative">About me</span>
             </Link>
-            <a download={cvFile} href={cvFile} class="relative  items-center justify-start inline-block px-12 py-3 overflow-hidden font-bold rounded-full group">
+            <a download={cvFile} href={cvFile} class="relative  items-center justify-start inline-block px-12 py-4 overflow-hidden font-medium rounded-full group">
               <span class="w-96 h-96 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 dark:bg-white bg-slate-800 opacity-[3%]"></span>
               <span class="absolute top-0 left-0 w-56 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-64 -translate-y-24 dark:bg-white bg-slate-800 opacity-100 group-hover:-translate-x-8"></span>
-              <span class="relative w-full text-left dark:text-white text-slate-800 transition-colors duration-200 ease-in-out dark:group-hover:text-gray-900 group-hover:text-slate-50">Button Text</span>
+              <span class="relative w-full text-left dark:text-white text-slate-800 transition-colors duration-200 ease-in-out dark:group-hover:text-gray-900 group-hover:text-slate-50">Download CV</span>
               <span class="absolute inset-0 border-2 dark:border-white border-slate-800 rounded-full"></span>
             </a>
           </div>

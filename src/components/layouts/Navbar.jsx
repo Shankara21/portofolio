@@ -24,7 +24,7 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div data-aos="fade-down" data-aos-duration="1000" className={`navbar lg:px-8 py-4 fixed z-50  ${isScrolled && 'bg-slate-100 dark:bg-slate-800 shadow-xl'}`}>
+    <div className={`navbar lg:px-8 py-4 fixed z-50 fade-down-animation  ${isScrolled && 'bg-slate-100 dark:bg-slate-800 shadow-xl'}`}>
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -43,15 +43,15 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex-col">
-          <h1 className='font-permanent text-3xl dark:text-slate-50'>Lazuardi Timur</h1>
-          <p className='font-montserrat max-md:hidden text-gray-400 dark:text-gray-500 font-semibold'>Fullstack Developer</p>
+          <h1 className='font-permanent text-3xl dark:text-slate-50 select-none'>Lazuardi Timur</h1>
+          <p className='font-montserrat max-md:hidden text-gray-400 dark:text-gray-500 font-semibold select-none'>Fullstack Developer</p>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex gap-5">
-        <Link to={'/'} className={`font-montserrat font-semibold text-slate-600 dark:text-slate-400 hover:-translate-y-0.5 duration-300 ease-in-out ${url === '/' && 'active'}`}>Home</Link>
-        <Link to={'/about'} className={`font-montserrat font-semibold text-slate-600 dark:text-slate-400 hover:-translate-y-0.5 duration-300 ease-in-out ${url === '/about' && 'active'}`}>About</Link>
-        <Link to={'/project'} className={`font-montserrat font-semibold text-slate-600 dark:text-slate-400 hover:-translate-y-0.5 duration-300 ease-in-out ${url === '/project' && 'active'}`}>Project</Link>
-        <Link to={'/contact'} className={`font-montserrat font-semibold text-slate-600 dark:text-slate-400 hover:-translate-y-0.5 duration-300 ease-in-out ${url === '/contact' && 'active'}`}>Contact</Link>
+        <Link to={'/'} className={`font-montserrat font-semibold text-slate-600 dark:text-slate-400 hover:-translate-y-0.5 active:translate-y-0 duration-300 ease-in-out ${url === '/' && 'active'}`}>Home</Link>
+        <Link to={'/about'} className={`font-montserrat font-semibold text-slate-600 dark:text-slate-400 hover:-translate-y-0.5 active:translate-y-0 duration-300 ease-in-out ${url === '/about' && 'active'}`}>About</Link>
+        <Link to={'/project'} className={`font-montserrat font-semibold text-slate-600 dark:text-slate-400 hover:-translate-y-0.5 active:translate-y-0 duration-300 ease-in-out ${url === '/project' && 'active'}`}>Project</Link>
+        <Link to={'/contact'} className={`font-montserrat font-semibold text-slate-600 dark:text-slate-400 hover:-translate-y-0.5 active:translate-y-0 duration-300 ease-in-out ${url === '/contact' && 'active'}`}>Contact</Link>
       </div>
       <div className="navbar-end">
         <Switcher />
