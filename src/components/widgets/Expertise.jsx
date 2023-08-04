@@ -1,48 +1,64 @@
 import React from 'react'
 
-import html from '/public/icon/html.png'
-import css from '/public/icon/css.png'
-import js from '/public/icon/js.png'
-import ts from '/public/icon/ts.png'
-import php from '/public/icon/php.png'
-import py from '/public/icon/python.png'
-import java from '/public/icon/java.png'
-import laravel from '/public/icon/laravel.png'
-import nodejs from '/public/icon/node.png'
-
 const Expertise = () => {
   return (
-    <div className='my-3'>
+    <div className='my-6'>
       <div className="title">
         <div data-aos="fade-right" data-aos-duration="1000" className="text-3xl font-extrabold text-center font-montserrat">
           My Expertise
         </div>
-        <div data-aos="fade-right" data-aos-duration="1700" className="flex justify-center items-center mt-1">
-          <hr className=" border-t-2 border-slate-800 w-52 border-2" />
+        <div data-aos="fade-right" data-aos-duration="1700" className="flex items-center justify-center mt-1">
+          <hr className="border-2 border-t-2 border-slate-800 dark:border-slate-50 w-52" />
         </div>
       </div>
 
-      <div className="flex items-center justify-evenly mt-10 px-8 gap-2 max-md:flex-wrap">
-        <div className=' w-full text-center '>
-          <p className='font-bold text-xl  text-slate-800   text-center'>Programming Languages <br /> & Frameworks</p>
-          <div className="grid grid-cols-4 max-md:grid-cols-1 mt-6 gap-3 ">
-            <img src={html} alt="" className='filter grayscale hover:scale-102 hover:filter-none duration-300 ease-in-out cursor-pointer' />
-            <img src={css} alt="" className='filter grayscale hover:scale-102 hover:filter-none duration-300 ease-in-out cursor-pointer' />
-            <img src={js} alt="" className='filter grayscale hover:scale-102 hover:filter-none duration-300 ease-in-out cursor-pointer' />
-            <img src={ts} alt="" className='filter grayscale hover:scale-102 hover:filter-none duration-300 ease-in-out cursor-pointer' />
-            <img src={php} alt="" className='filter grayscale hover:scale-102 hover:filter-none duration-300 ease-in-out cursor-pointer' />
-            <img src={java} alt="" className='filter grayscale hover:scale-102 hover:filter-none duration-300 ease-in-out cursor-pointer' />
-            <img src={py} alt="" className='filter grayscale hover:scale-102 hover:filter-none duration-300 ease-in-out cursor-pointer' />
-            <img src={nodejs} alt="" className='filter grayscale hover:scale-102 hover:filter-none duration-300 ease-in-out cursor-pointer' />
+      <div data-aos="fade-up" data-aos-duration="1000"  className="flex items-start gap-2 px-8 mt-10 justify-evenly max-md:flex-wrap">
+        <div className='w-full text-center' >
+          <p className='text-xl font-bold text-center text-slate-800 dark:text-slate-50'>Programming Languages <br /> & Frameworks</p>
+          <div className="grid grid-cols-4 gap-3 mt-6 ">
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/html.png?updatedAt=1691135494773' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/css.png?updatedAt=1691135489271' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/js.png?updatedAt=1691135494688' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/ts.png?updatedAt=1691135499801' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/php.png?updatedAt=1691135494782' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/java.png?updatedAt=1691135494592' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/python.png?updatedAt=1691135499859' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/dart.png?updatedAt=1691135500637' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/node.png?updatedAt=1691135494767' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/laravel.png?updatedAt=1691135494670' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/flutter.png?updatedAt=1691135489298' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/react.png?updatedAt=1691135499987' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/angular.png?updatedAt=1691135489109' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/vue.png?updatedAt=1691135499780' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/express.png?updatedAt=1691135489154' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/tailwind.png?updatedAt=1691135499825' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/bootstrap.png?updatedAt=1691135489104' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
           </div>
         </div>
-        <div class="divider lg:divider-horizontal divider-vertical"></div>
-        <div className=' w-full text-center'>
-          <p className='font-bold text-xl text-slate-800'>Tools</p>
+        <div class="divider divider-horizontal  "></div>
+        <div className='w-full text-center' >
+          <p className='text-xl font-bold text-slate-800 dark:text-slate-50'>Tools</p>
+          <div className="grid grid-cols-4 gap-3 mt-14 ">
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/vscode.png?updatedAt=1691135499812' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/postman.png?updatedAt=1691135499767' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/xampp.png?updatedAt=1691135500598' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/figma.png?updatedAt=1691135489024' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/git.png?updatedAt=1691135489155' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/github.png?updatedAt=1691135489129' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 dark:hover:invert w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/heidi.png?updatedAt=1691135489416' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/workbench.png?updatedAt=1691135499811' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/dbeaver.png?updatedAt=1691135489360' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/phpmaker.png?updatedAt=1691135495095' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+          </div>
         </div>
-        <div class="divider lg:divider-horizontal"></div>
-        <div className=' w-full text-center'>
-          <p className='font-bold text-xl text-slate-800'>Databases</p>
+        <div class="divider  divider-horizontal"></div>
+        <div className='w-full text-center'  >
+          <p className='text-xl font-bold text-slate-800 dark:text-slate-50'>Databases</p>
+          <div className="grid grid-cols-4 gap-3 mt-14 ">
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/mysql.png?updatedAt=1691135494756' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/mongoDb.png?updatedAt=16911354945' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+            <img src='https://ik.imagekit.io/siapahayo/IconPortfolio/postgre.png?updatedAt=1691135495179' alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[70%]' />
+          </div>
         </div>
       </div>
     </div>
